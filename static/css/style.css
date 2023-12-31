@@ -1,3 +1,10 @@
+:root{
+    --color-butterfly-primaria-claro:#00eeff;
+    --color-butterfly-segundaria-escuro:#00abf0;
+    --color-background:#081b29;
+}
+
+
 *{
     margin: 0px;
     padding: 0px;
@@ -6,7 +13,7 @@
 
 }
 body{
-    background-color: #081b29;
+    background-color: var(--color-background);
 }
 
 header{
@@ -44,13 +51,13 @@ header{
 
 .navbar a:hover , 
 .navbar a.active {
-    color: #00abf0;
+    color: var(--color-butterfly-segundaria-escuro);
 }
 
 .navbar:hover{
     transition-delay: 0s 1s;
     box-shadow:
-     0 0 10px #00eeff ,
+     0 0 10px var(--color-butterfly-primaria-claro) ,
      0 0 40px rgb(0, 238, 255) ,
      0 0 10px hsl(184, 100%, 50%) ,
      0 0 10px hwb(184 0% 0%),
@@ -106,7 +113,7 @@ li{
     margin-bottom: 40px;
     width: 300px;
     height: 300px;
-    background-color:#00abf0;
+    background-color:var(--color-butterfly-segundaria-escuro);
     transition-delay: 0s 1s;
     border-radius: 50%;
 }
@@ -209,7 +216,7 @@ h1{
             margin-bottom: 40px;
             width: 300px;
             height: 300px;
-            background-color:#00abf0;
+            background-color:var(--color-butterfly);
             transition-delay: 0s 1s;
             border-radius: 50%;
           
