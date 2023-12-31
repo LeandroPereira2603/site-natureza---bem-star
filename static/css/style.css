@@ -107,7 +107,7 @@ li{
     height: 300px;
     background-color:blue;
     transition-delay: 0s 1s;
-    border-radius: 10px;
+    border-radius: 50%;
 }
 
 
@@ -130,8 +130,8 @@ li{
 }
 
 .img-principal{
-  width: 75%;
-  height: 75%;
+  width: 82%;
+  height: 82%;
   border-radius: 50%;
 }
 
