@@ -1,10 +1,11 @@
 # site-natureza-&-bem-star
 ## em processo de criação :
 
- - [x] Arquivo static para o Git Hub Page
+ - [x] Arquivo static, para o Git Hub Page
  - [x] Site habilitado para o acesso , com Git Hub pages
- - [x] Favicon-icon 
- - [x] Menu - nav 
+ - [x] Favicon-icon
+ - [x] Menu - nav
+ - [x] Variáveis no CSS ( estrutura organizada ) 
  - [ ] Tela principal - body 
  - [x] Animação - keyframes (1)
  - [ ] Formulário - form
