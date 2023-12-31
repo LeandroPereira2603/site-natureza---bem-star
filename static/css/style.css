@@ -159,6 +159,7 @@ h1{
          0 0 10px #00eeff ,
          0 0 10px #00eeff ;
          border-radius: 10px;
+         animation: luz 4s infinite;
 
     }
     
@@ -174,7 +175,45 @@ h1{
             transition-delay: 0s 1s;
             border-radius: 10px;
           
+          
   
+        }
+        @keyframe luz {
+            0%{
+                box-shadow:
+                0 0 10px #00eeff ,
+                0 0 40px rgb(0, 238, 255) ,
+                0 0 10px hsl(184, 100%, 50%) ,
+                0 0 10px hwb(184 0% 0%),
+                0 0 10px #00eeff ,
+                0 0 10px #00eeff ,
+                0 0 10px #00eeff ;
+
+            }
+
+            50%{
+                box-shadow:
+         0 0 10px #00eeff ,
+         0 0 40px rgb(0, 238, 255) ,
+         0 0 100px hsl(184, 100%, 50%) ,
+         0 0 140px hwb(184 0% 0%),
+         0 0 260px #00eeff ,
+         0 0 300px #00eeff ,
+         0 0 300px #00eeff ;
+
+            }
+
+            100%{
+                box-shadow:
+                0 0 10px #00eeff ,
+                0 0 40px rgb(0, 238, 255) ,
+                0 0 10px hsl(184, 100%, 50%) ,
+                0 0 10px hwb(184 0% 0%),
+                0 0 10px #00eeff ,
+                0 0 10px #00eeff ,
+                0 0 10px #00eeff ;
+
+            }
         }
         
         
