@@ -62,7 +62,9 @@ header{
 .navbar a:hover , 
 .navbar a.active {
     color: var(--color-butterfly-segundaria-escuro);
+    
 }
+
 
 .navbar:hover{
     transition-delay: 0s 1s;
