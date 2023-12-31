@@ -1,7 +1,13 @@
 :root{
-    --color-butterfly-primaria-claro:#00eeff;
-    --color-butterfly-segundaria-escuro:#00abf0;
+    --color-butterfly-primaria-claro:#00eeff; 
+    /* 1 vezes utilizado */ 
+    --color-butterfly-segundaria-escuro:#00abf0; 
+    /* 3 vezes utilizado */
     --color-background:#081b29;
+    /* 1 vezes utilizado */ 
+    --color--text--primaria:white;
+    /* mais de 3 vezes */
+
 }
 
 
@@ -32,7 +38,7 @@ header{
 
 .li-logo{
    font-size: 25px;
-   color: white;
+   color: var(--color--text--primaria);
    text-decoration: none;
    font-weight: 600;
 }
@@ -46,7 +52,7 @@ header{
     text-decoration: none;
     font-weight: 500;
     transform: .3s;
-    color: white;
+    color: var(--color--text--primaria);
 }
 
 .navbar a:hover , 
@@ -121,7 +127,7 @@ li{
 
 .div-info:hover {
 
-    color: white;
+    color: var(--color--text--primaria);
     transition-delay: 0s 1s;
     box-shadow:
      0 0 10px #00eeff ,
@@ -228,7 +234,7 @@ h1{
         .div-info:hover {
      
            
-            color: white;
+            color:var(--color--text--primaria);
             transition-delay: 0s 1s;
             box-shadow:
             0 0 10px #00eeff ,
