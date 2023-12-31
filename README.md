@@ -4,13 +4,14 @@ em processo de criação :
  - [x] Arquivo static para o Git Hub Page
  - [x] Site habilitado para o acesso , com Git Hub pages
  - [x] Favicon-icon
- - [ ] Menu - nav 
+ - [x] Menu - nav 
  - [ ] Tela principal
  - [ ] Formulário
+ - [ ] Responsivo 
  - [ ] Com tratamento de imagens - extensão (WEPB)
  - [ ] Design - ilustração ( krita )
  - [ ] Integração com MySql - linguagem PHP
- - [ ] Modelo conceitual
+ - [ ] Modelo conceitual - banco de dados
 
 ## Fontes e softwares :
 * [Site para criação de favicon : https://www.favicon.cc/? ](https://www.favicon.cc/?)
