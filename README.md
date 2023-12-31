@@ -1,10 +1,12 @@
 # site-natureza-&-bem-star
 em processo de criação :
 
- - [x] Criar arquivo static para o Git Hub Page
- - [x] Habilitar o acesso ao Git Hub pages
- - [ ] Criar design para tela principal
- - [ ] Criar formulário
- - [ ] Tratamento de imagens - extensão (WEPB)
- - [ ] Design - ilustrar uma imagem ( krita )
+ - [x] Arquivo static para o Git Hub Page
+ - [x] Site habilitado para acessar com Git Hub pages
+ - [ ] Tela principal
+ - [ ] Formulário
+ - [ ] Com tratamento de imagens - extensão (WEPB)
+ - [ ] Design - ilustração ( krita )
  - [ ] Integração com MySql - linguagem PHP
+ - [ ] Modelo conceitual
+
