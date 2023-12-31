@@ -14,7 +14,7 @@ em processo de criação :
 
 ## Fontes e softwares :
 * [Site para criação de favicon : https://www.favicon.cc/? ](https://www.favicon.cc/?)
-* [Site com imagens favicon :https://www.iconarchive.com/](https://www.iconarchive.com/)
+* [Site com imagens favicon : https://www.iconarchive.com/](https://www.iconarchive.com/)
 * Gimp - Design - tratamento de imagem conversão e mascaras
 * krita - ilustração
 * Figma
