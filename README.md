@@ -3,11 +3,12 @@
 
  - [x] Arquivo static para o Git Hub Page
  - [x] Site habilitado para o acesso , com Git Hub pages
- - [x] Favicon-icon
+ - [x] Favicon-icon 
  - [x] Menu - nav 
- - [ ] Tela principal
- - [ ] Formulário
- - [ ] Responsivo 
+ - [ ] Tela principal - body 
+ - [x] Animação - keyframes (1)
+ - [ ] Formulário - form
+ - [ ] Responsivo - @media screen 
  - [ ] Com tratamento de imagens - extensão (WEPB)
  - [ ] Design - ilustração ( krita )
  - [ ] Integração com MySql - linguagem PHP
