@@ -11,7 +11,7 @@ em processo de criação :
  - [ ] Integração com MySql - linguagem PHP
  - [ ] Modelo conceitual
 
-## Fontes e software :
+## Fontes e softwares :
 * [Site para criação de favicon : https://www.favicon.cc/? ](https://www.favicon.cc/?)
 * Gimp - Design - tratamento de imagem conversão e mascaras
 * krita - ilustração
