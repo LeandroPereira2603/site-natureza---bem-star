@@ -15,7 +15,7 @@
  - [ ] Integração com MySql - linguagem PHP
  - [ ] Modelo conceitual - banco de dados
 
-## Fontes e softwares :
+## Fontes : 
 * [Site para criação de favicon : https://www.favicon.cc/? ](https://www.favicon.cc/?)
 * [Site com imagens favicon : https://www.iconarchive.com/](https://www.iconarchive.com/)
 * Gimp - Design - tratamento de imagem (WEPB) conversão e mascaras 
