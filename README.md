@@ -3,6 +3,7 @@
 
  - [x] Arquivo static, para o Git Hub Page
  - [x] Site habilitado para o acesso , com Git Hub pages
+ - [ ] Tela - Splash 
  - [x] Favicon-icon
  - [x] Menu - nav
  - [x] Variáveis no CSS ( estrutura organizada ) 
