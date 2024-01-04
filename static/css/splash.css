@@ -16,7 +16,8 @@ body{
     object-position: 20% 10% ;  try 20% 10% */ 
     width: 300px;
     height: 300px;
-    filter: drop-shadow(16px 7px 8px );
+    /* direita esquerda intensidade de sombra */
+    filter: drop-shadow(2px 2px 0px );
     animation: anima 3s infinite;
 
 }
@@ -32,7 +33,23 @@ body{
     }
 
     100%{
-        
+
         filter: drop-shadow(16px 7px 8px #00eeff );
+    }
+}
+
+@keyframes animaDois {
+
+    0%{
+        filter: drop-shadow(160px 0px 10px #00eeff );
+    }
+
+    50%{
+        filter: drop-shadow(0px 160px 0px #00eeff );
+    }
+
+    100%{
+
+        filter: drop-shadow( #71f5fe 1rem 1rem 0px );
     }
 }
