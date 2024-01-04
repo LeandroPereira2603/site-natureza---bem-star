@@ -119,10 +119,20 @@ li{
 
 
 }
-
+/* com object-fit cover e position 20% 10% deixa a tela responsivel
+em qualquer tamanho da tela */
 .backgro-img{
+    background: url('static/imagem/background/natureza-borboleta-azul-1.jpg') no-repeat center;
+    background-size: cover;
+    object-fit: cover;
+    object-position: 20% 10% ; /* try 20% 10% */ 
     width: 100%;
     height: 100vh;
+}
+
+.titulo-natureza{
+    margin-top: 40px;
+    text-align: center;
 }
 
 .grid-right{
@@ -168,6 +178,7 @@ li{
 }
 
 .img-principal{
+
     width: 87%;
     height: 87%;
     border-radius: 50%;
@@ -176,6 +187,7 @@ li{
 h1{
     text-align: center;
     color: white;
+
 }
 
 
@@ -210,18 +222,50 @@ h1{
         0 0 10px #00eeff ,
         0 0 10px #00eeff ;
     }
+
+    
+}
+
+.espaco{
+    width: 100px;
+    height: 200px;
 }
 
 @media screen and (max-width:700px){
 
+    .header{
+
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 10px 5%;
+        background-color: transparent;
+        justify-content: space-between;
+        display: flex;
+        align-items: center;
+        z-index: 100;
+    
+    }
+
     .navbar a {
-        font-size: 15px;
+
+        font-size: 10px;
         text-decoration: none;
         font-weight: 500;
         transform: .3s;
-      
-    
     }
+
+    li{
+        display:inline-block; 
+        padding: 5px;
+        margin: 2.3px;
+
+     
+     }
+     h3{
+        font-size: 13px;
+     }
     .navbar:hover{
         transition-delay: 0s 1s;
         box-shadow:
@@ -232,17 +276,18 @@ h1{
          0 0 10px #00eeff ,
          0 0 10px #00eeff ,
          0 0 10px #00eeff ;
-         border-radius: 10px;
+         border-radius: 5px;
          animation: move 3s infinite;
     
 
     }
     
         .div-info{
+
             display: flex;
             justify-content: center;
             align-items: center;
-            margin-top: 300px;
+            margin-top: 50px;
             margin-bottom: 40px;
             width: 300px;
             height: 300px;
@@ -274,14 +319,19 @@ h1{
         }
 
         .img-principal{
+        
             width: 87%;
             height: 87%;
              border-radius: 50%;
           }
 
           .backgro-img{
+            background: url('static/imagem/background/natureza-borboleta-azul-1.jpg') no-repeat center;
+            background-size: cover;
+            object-fit: cover;
+            object-position: 20% 10% ; /* try 20% 10% */ 
             width: 100%;
-            height: 500px;
+            height: 100vh;
           }
       }
 
