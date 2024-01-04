@@ -1,0 +1,33 @@
+
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #081b29;
+
+}
+ .img-butterfly{
+    background: url("static/imagem/png/Butterfliy-blue-logo.png") no-repeat center ;
+    background-size: cover;
+    /*object-fit: cover;
+    object-position: 20% 10% ;  try 20% 10% */ 
+    width: 300px;
+    height: 300px;
+    filter: drop-shadow(16px 7px 8px );
+    animation: anima 3s infinite;
+
+}
+
+@keyframes anima {
+
+    0%{
+        filter: drop-shadow(16px 7px 8px #00eeff );
+    }
+
+    100%{
+        filter: drop-shadow(16px 7px 80px #00eeff );
+    }
+}
