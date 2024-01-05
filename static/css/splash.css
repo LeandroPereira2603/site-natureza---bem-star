@@ -10,6 +10,7 @@ body{
 
 }
  .img-butterfly{
+   
     background: url("static/imagem/png/Butterfliy-blue-logo.png") no-repeat center ;
     background-size: cover;
     /*object-fit: cover;
@@ -18,7 +19,7 @@ body{
     height: 300px;
     /* direita esquerda intensidade de sombra */
     filter: drop-shadow(2px 2px 0px );
-    animation: anima 3s infinite;
+    animation: anima  3s infinite , animaTres 3s linear;
 
 }
 
@@ -52,4 +53,40 @@ body{
 
         filter: drop-shadow( #71f5fe 1rem 1rem 0px );
     }
+
+
+
+}
+
+    
+@keyframes animaTres {
+
+    
+  0%{
+
+    padding-top:100px;
+
+  }
+
+  25%{
+  
+    padding-left:100px;
+
+  }
+
+  50%{
+    padding-right:100px;
+
+  }
+
+  75%{
+
+    padding-bottom:100px;
+
+  }
+
+  100%{
+    padding-left:0px;
+  }
+    
 }
