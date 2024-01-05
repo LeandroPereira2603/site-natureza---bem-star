@@ -95,10 +95,21 @@ body{
   }
 
   100%{
-    
+
     background: linear-gradient(to bottom, rgb(32, 0, 114), #00eeff);
     
     padding-left:0px;
   }
     
+}
+
+@media (max-width:700px) {
+    
+    .img-butterfly{
+
+        width: 150px;
+        height: 150px;
+
+    }
+
 }
