@@ -95,6 +95,9 @@ li{
    display:inline-block; 
    padding: 20px;
    margin: 5px;
+   list-style: circle;
+   list-style-type: disc;
+   
 
 }
 
@@ -169,11 +172,76 @@ em qualquer tamanho da tela */
     border-radius: 50%;
 }
 
-.container-div-info{
 
+
+.img-principal{
+
+    width: 87%;
+    height: 87%;
+    border-radius: 50%;
+}
+
+h1{
+    
+    text-align: center;
+    color: white;
+
+}
+
+.grid-layout{
+    margin-top:4%;
+    margin-bottom: 4%;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr  ;
+    grid-template-areas: "esq cent ";
+}
+
+.container-div-woman{
+    display: grid;
+    grid-area: "esq";
+    margin-top: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 20px;
+   z-index: 1;
+
+  }
+  
+  .div-woman{
+  
+    width: 500px;
+    height: 500px;
+    background-color: #00abf0;
+    border-radius: 20px;
+    transition: 0.6s;
+  
+  
+  }
+  .div-woman:hover{
+
+    border:20px solid black;
+    transition: 0.6s;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .img-woman{
+
+    width: 760px;
+    height: 500px;
+    transition: 0.6s;
+  }
+
+  .container-div-info{
+
+    display: grid;
+    grid-area: "dir";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
 }
 
 
@@ -194,56 +262,14 @@ em qualquer tamanho da tela */
 
 }
 
-.img-principal{
+.container-text{
 
-    width: 87%;
-    height: 87%;
-    border-radius: 50%;
-}
-
-h1{
-    
-    text-align: center;
+    display: grid;
+    grid-area: "cent";
     color: white;
-
 }
 
-.container-div-woman{
 
-    margin-top: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-
-
-  
-  }
-  
-  .div-woman{
-  
-    width: 500px;
-    height: 500px;
-    background-color: #00abf0;
-    border-radius: 20px;
-    transition: 0.6s;
-  
-  
-  }
-  .div-woman:hover{
-    border:20px solid black;
-    transition: 0.6s;
-    border-radius: 20px;
-    cursor: pointer;
-  }
-  
-  .img-woman{
-
-    width: 760px;
-    height: 500px;
-    transition: 0.6s;
-  }
-  
 
 
 @keyframes move{
