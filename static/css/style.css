@@ -199,7 +199,7 @@ h1{
 .container-div-woman{
     
     display: grid;
-    grid-area: "esq";
+    grid-area: esq;
     margin-top: 30px;
     display: flex;
     justify-content: center;
@@ -237,7 +237,7 @@ h1{
   .container-div-info{
 
     display: grid;
-    grid-area: "dir";
+    grid-area: dir;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -266,12 +266,36 @@ h1{
 .container-text{
 
     display: grid;
-    grid-area: "cent";
+    grid-area: cent;
     color: white;
     background-color: #677d8d;
     margin: 30px;
     border-radius: 0px 20px 0px 20px ;
 }
+
+.text{
+    display: block;
+}
+
+table{
+  
+    text-align: center;
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    border: 1px solid black;
+
+}
+
+td{
+    border: 1px solid black;
+}
+
+
+tr{
+    border: 1px solid black;
+}
+
 
 
 
