@@ -299,7 +299,7 @@
                     color: white;
                     background-color: #677d8d;
                     margin: 30px;
-                    border-radius: 0px 20px 0px 20px ;
+                    border-radius: 20px;
                 }
                 
                 .text{
@@ -461,7 +461,9 @@
                             z-index: 0;
                         
                           }
+
                          .div-woman{
+
                           width: 84%;
                           height: auto;
                           background-color: #00abf0;
@@ -502,6 +504,7 @@
                                 display: block;
                             }
 
+
                             .container-overflow{
                                 width: 100%;
                                 height: 100%;
@@ -514,7 +517,7 @@
                             
                       .container-div-info{
                     
-                           width: 100%; 
+                        width: 100%; 
                         display: flex;
                         justify-content: center;
                         align-items: center;
@@ -528,6 +531,7 @@
                             
 
                             .container-text{
+
                                 padding: 20px;
                                 display: block;
                                 width: 80%;
