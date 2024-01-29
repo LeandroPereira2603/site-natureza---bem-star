@@ -227,6 +227,7 @@
                     border-radius: 20px;
                     cursor: pointer;
                   }
+
                   
                   .img-woman{
                 
@@ -256,22 +257,22 @@
                  
                 }
                 
-                  
-                
+                         
                 .div-info{
                 
                     display: flex;
                     justify-content: center;
                     align-items: center;
-                    margin-top: 45px;
-                    margin-bottom: 40px;
-                    margin-left: 20px;
-                    width: 300px;
-                    height: 300px;
+                    margin-top: 60px;
+                    margin-bottom: 60px;
+                    margin-left: 60px;
+                    width: 260px;
+                    height: 260px;
                     background-color:var(--color-butterfly-segundaria-escuro);
                     transition-delay: 0s 1s;
                     border-radius: 50%;
                     transition: 0.6s;
+                    cursor: pointer;
                 }
                 
                 .div-info:hover {
@@ -379,7 +380,7 @@
                 }
                 
                 footer{
-                    
+
                     display: flex;
                     justify-content: center;
                     align-items: center;
